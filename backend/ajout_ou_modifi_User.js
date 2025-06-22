@@ -21,6 +21,6 @@ async function createOrUpdateJames() {
   process.exit(0);
 }
 
-// J'ai galéré ici pour faire marcher la mise à jour...
+// J'ai galéré ici pour faire marcher la mise à jour..
 // Je vérifie si l'utilisateur existe déjà (sinon ça plante)
 createOrUpdateJames().catch(e => { console.error(e); process.exit(1); }); 
